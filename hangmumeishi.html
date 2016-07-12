@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/appxiazai.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="nav-bg"id="navbg" style="box-shadow: 1px 1px 3px #2f1d1d;">
+				<div class="nav"id="nav"style="box-shadow: none;border: none;">
+					<ul>
+						<a href="index.html"><li style="margin-left: 60px;">谁是邢少爷</li></a>
+						<a href="hangmumeishi.html"><li style="color: #4CC1FC;">航母美食</li></a>
+						<a href="newscenter.html"><li>新闻资讯</li></a>
+						<a href="index.html"><li style="margin-top: 8px;"id="nav-logo"><img src="img/logo copy.jpg" alt="邢少爷long"/></li></a>
+						<a href="partner recruitmen.html"><li>合伙人招募</li></a>
+						<a href="appxiazai.html"><li>App下载</li></a>
+						<a href="messageonline.html"><li>联系我们</li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="header-content2">
+				<script type="text/javascript">
+					   $(function(){
+					        var order = 0;  //order变量用于图片的计数
+					        var change = setInterval(function(){
+					            order++;
+					            if(order == $(".pic li").length){
+					                order = 0;}
+					            show(order);
+					        },3000);
+					        function show(order){
+					            $(".pic li").eq(order - 1).fadeOut(1000); //将上一张图片隐藏
+					            $(".pic li").eq(order).fadeIn(1000); //将这张图片出现
+					        };
+					    })
+				</script>
+				<div class="pic" id="pic">
+				  	<ul>
+				    	<li>
+				    		<div style="width: 620px;height: auto;float: left;">
+				    		<p style="font-family: 'microsoft yahei';font-size: 18px;color: #FFFFFF;">邢少爷夹馍系列</p>
+				    		<img src="img/font-pic2.png" style="margin-top: 32px;margin-bottom: 22px;width:540px;height:60px;"alt="专注美食，我们认真"/><br />
+				    		<img src="img/focus on food,we are.png" style="margin-bottom: 28px;width: 501px;height: 35px;" alt="focus on food，we are serious"/>
+				    		<p style="font-family: 'microsoft yahei';font-size: 36px;color: #FFFFFF;">鸡馍馍</p></div>
+				    		<img src="img/jimomo.png"style="float: right;width: 471px;height: 218px; margin-top: 70px;" alt="鸡馍馍"/>
+				    	</li>
+				    	<li style="display: none;">
+				    		<div style="width: 620px;height: auto;float: left;">
+				    		<p style="font-family: 'microsoft yahei';font-size: 18px;color: #FFFFFF;">邢少爷夹馍系列</p>
+				    		<img src="img/font-pic2.png" style="margin-top: 32px;margin-bottom: 22px;width:540px;height:60px;"/><br />
+				    		<img src="img/focus on food,we are.png" style="margin-bottom: 28px;width: 501px;height: 35px;" />
+				    		<p style="font-family: 'microsoft yahei';font-size: 36px;color: #FFFFFF;">胖馍馍</p></div>
+				    		<img src="img/roumomo2.png"style="float: right;width: 462px;height: 252px; margin-top: 40px;"alt=："胖馍馍" />
+				    	</li>
+				    	<li style="display: none;">
+				    		<div style="width: 620px;height: auto;float: left;">
+				    		<p style="font-family: 'microsoft yahei';font-size: 18px;color: #FFFFFF;">邢少爷夹馍系列</p>
+				    		<img src="img/font-pic2.png" style="margin-top: 32px;margin-bottom: 22px;width:540px;height:60px;"/><br />
+				    		<img src="img/focus on food,we are.png" style="margin-bottom: 28px;width: 501px;height: 35px;" />
+				    		<p style="font-family: 'microsoft yahei';font-size: 36px;color: #FFFFFF;">小米米皮</p></div>
+				    		<img src="img/roumomo3.png"style="float: right;width: 456px;height: 286px; margin-top: 30px;" alt="小米米皮"/>
+				    	</li>
+				    	<li style="display: none;">
+				    		<div style="width: 620px;height: auto;float: left;">
+				    		<p style="font-family: 'microsoft yahei';font-size: 18px;color: #FFFFFF;">邢少爷夹馍系列</p>
+				    		<img src="img/font-pic2.png" style="margin-top: 32px;margin-bottom: 22px;width:540px;height:60px;"/><br />
+				    		<img src="img/focus on food,we are.png" style="margin-bottom: 28px;width: 501px;height: 35px;" />
+				    		<p style="font-family: 'microsoft yahei';font-size: 36px;color: #FFFFFF;">酸角汁</p></div>
+				    		<img src="img/roumomo4.png"style="float: right;width: 178px;height: 400px;margin-right: 120px;transform: translateY(-70px);" alt="酸角汁" />
+				    	</li>
+				  	</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content-main">
+			<div class="container-nav">
+				<ul>
+					<a href="yuzhouyinxiaoju.html"><li style="margin-left: 50px;"><img src="img/yingxiaoju.png" style="margin-bottom: 19px;"/><p>宇宙营销局</p></li></a>
+					<a href="meishiyanfa.html"><li><img src="img/meishi.png" style="margin-bottom: 6px;"/><p>美食研发中心</p></li></a>
+					<a href="gongyinglian.html"><li><img src="img/gongyinglian.png" style="margin-bottom: 4px;"/><p>供应链管理平台</p></li></a>
+					<a href="youzhipinpai.html"><li><img src="img/disanfang.png" style="margin-bottom: 2px;"/><p>第三方优质品牌</p></li></a>
+					<a href="meitiyunying.html"><li style="margin-right: 0px;"><img src="img/meiti.png"/><p>媒体运营</p></li></a>
+				</ul>
+			</div>
+			<div class="main-font">
+				<h1>邢少爷</h1>
+				<h2>打造一艘美食航空</h2>
+				<p>少爷爆款</p>
+			</div>
+			<div class="pic-font">
+				<ul>
+					<li><div class="product-intoduce"><p>鸡馍馍</p></div><img src="img/jimomo.jpg"/></li>
+					<li><div class="product-intoduce"><p>小米米皮</p></div><img src="img/mipi.jpg"/></li>
+					<li><div class="product-intoduce"><p>南瓜粥</p></div><img src="img/zhou.jpg"/></li>
+					<li style="margin-right: 0px;"><div class="product-intoduce"><p>胖馍馍</p></div><img src="img/pangmomo.jpg"/></li>
+				</ul>	
+				<ul>
+					<li><div class="product-intoduce"><p>叉烧包</p></div><img src="img/chashaobao.jpg"/></li>
+					<li><div class="product-intoduce"><p>流沙包</p></div><img src="img/suanjiaozhi.jpg"/></li>
+					<li><div class="product-intoduce"><p>翅霸天下</p></div><img src="img/chiba.jpg"/></li>
+					<li style="margin-right: 0px;"><div class="product-intoduce"><p>榴莲芝士蛋挞</p></div><img src="img/danta.jpg"/></li>
+				</ul>
+				<ul>
+					<li><div class="product-intoduce"><p>现磨豆浆</p></div><img src="img/doujiang.jpg"/></li>
+					<li><div class="product-intoduce"><p>榴莲包</p></div><img src="img/doujiang copy.jpg"/></li>
+					<li><div class="product-intoduce"><p>南瓜粥</p></div><img src="img/gangshi1.jpg"/></li>
+					<li style="margin-right: 0px;"><div class="product-intoduce"><p>烧麦</p></div><img src="img/gangshi2.jpg"/></li>
+				</ul>
+				<ul>
+					<li><div class="product-intoduce"><p>鸡馍馍</p></div><img src="img/gangshi3.jpg"/></li>
+					<li><div class="product-intoduce"><p>小米米皮</p></div><img src="img/liushabao.jpg"/></li>
+					<li><div class="product-intoduce"><p>豉汁凤爪</p></div><img src="img/mipi copy.jpg"/></li>
+					<li style="margin-right: 0px;"><div class="product-intoduce"><p>糯米鸡</p></div><img src="img/nuomiji.jpg"/></li>
+				</ul>
+				<ul>
+					<li><div class="product-intoduce"><p>鸡馍馍</p></div><img src="img/gangshi1.jpg"/></li>
+					<li><div class="product-intoduce"><p>小米米皮</p></div><img src="img/gangshi7125.jpg"/></li>
+					<li><div class="product-intoduce"><p>蘑菇包</p></div><img src="img/mogu.jpg"/></li>
+					<li style="margin-right: 0px;background: #F4F4F4;"><p style="text-align: center;line-height: 200px;font-size: 24px;color: #888888;font-family: 'microsoft yahei';">好东西要藏着</p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer" style="height: 90px;">
+			<div class="footer-main">
+				<p style="margin: 0px;">雅聪（上海）餐饮管理有限公司  </p>
+				<p style="margin: 0px;">邢少爷  &nbsp;版权所有©2016-2022 &nbsp;ALL RIGHTS RESREVED</p>
+			</div>
+		</div>
+		
+	</body>
+</html>

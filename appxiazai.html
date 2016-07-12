@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/appxiazai.css" />
+		<link rel="stylesheet" href="css/base.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="nav-bg"id="navbg" style="box-shadow: 1px 1px 3px #2f1d1d;">
+				<div class="nav"id="nav">
+					<ul>					
+						<a href="index.html"><li style="margin-left: 60px;">谁是邢少爷</li></a>
+						<a href="hangmumeishi.html"><li>航母美食</li></a>
+						<a href="newscenter.html"><li>新闻资讯</li></a>
+						<a href="index.html"><li style="margin-top: 8px;"id="nav-logo"><img src="img/logo copy.jpg" alt="邢少爷long"/></li></a>
+						<a href="partner recruitmen.html"><li>合伙人招募</li></a>
+						<a href="appxiazai.html"><li style="color: #4CC1FC;">App下载</li></a>
+						<a href="messageonline.html"><li>联系我们</li></a>
+					</ul>
+				</div>
+			</div>
+			<div style="width: 100%;height: 830px;position: absolute;">
+				<div style="width: 1120px;height: 730px;position: relative;margin: 0 auto;">
+					<div id="xiazai">
+						<ul>
+							<li class="ios">ios下载</li>
+							<li class="android">android下载</li>
+						</ul>						
+					</div>
+				</div>
+			</div>				
+			<div class="header-content">
+				
+				<img src="img/dimian.png" id="dimian"alt="地面"/>
+				<div class="hc-main">
+					<img src="img/ren.png" id="ren" style="top: 349px;" alt="人"/>
+					<img src="img/shaoye.png" id="shaoye" style="left: 350px;top: 282px;"alt="少爷" />
+					<div id="zhadan"></div>
+					<img src="img/huangren 1.png" id="huangren" alt="黄人"/>
+					<img src="img/phone.png" id="phone" alt="手机" />
+					<div id="ios"></div>					
+				</div>	
+				
+			</div>
+			<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(function(){
+					$("#xiazai .ios").mouseover(function(){
+						if(!$("#ios").is(":animated")){
+						$("#ios").css("display","block")
+						$("#ios").css("background-image","url(img/ios.png)")
+					}						
+					})
+					$("#xiazai .ios").mouseout(function(){
+						if(!$("#ios").is(":animated")){
+						$("#ios").css("display","none")
+						$("#ios").css("background-image","url(img/ios.png)")
+					}						
+					})
+					$("#xiazai .android").mouseover(function(){
+						if(!$("#ios").is(":animated")){
+						$("#ios").css("display","block")
+						$("#ios").css("background-image","url(img/android.png)")
+					}						
+					})
+					$("#xiazai .android").mouseout(function(){
+						if(!$("#ios").is(":animated")){
+						$("#ios").css("display","none")
+						$("#ios").css("background-image","url(img/android.png)")
+					}						
+					})
+					
+				})
+			</script>							
+	</div>		
+		<div class="footer" style="transform: translateY(-30px);">
+			<div class="footer-main" >
+				<p>雅聪（上海）餐饮管理有限公司  </p>
+				<p>邢少爷  &nbsp;版权所有©2016-2022 &nbsp;ALL RIGHTS RESREVED</p>
+			</div>
+		</div>
+		
+	</body>
+</html>

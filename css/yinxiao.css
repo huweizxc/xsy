@@ -1,0 +1,80 @@
+html{width:100%;height:100%;}
+body{margin: 0;height: 0;}
+.header{width: 100%;height: auto;position: relative;}
+.nav ul li{list-style: none;float: left;margin-top: 55px;margin-left: 50px;font-family: "microsoft yahei";font-weight: lighter;font-size: 16px;color: #6C7A81;}
+.nav{width: 1120px;height: 70px;margin: 0 auto;position: relative;}
+.nav a{text-decoration: none;}
+.nav-bg{
+	width: 100%;
+	height: 90px;
+	box-shadow: 0px 1px 3px #af8585;
+	position: relative;
+	z-index: 3;	
+}
+#nav-logo:hover{transform: translateY(-3px);transition: all 0.4s ease-in;}
+#nav-logo{transform: translateY(0);transition: all 0.4s ease-in;}
+.nav ul li:hover{color: #4CC1FC;}
+@media only screen and (max-width:1120px ) {
+	.screen-img{width:1120px;}
+	.footer{width: 1120px !important;}
+	.nav-bg{box-shadow: none;}
+	#dituContent{width: 1120px !important;}
+}
+.content-main{width: 100%;height: auto;}
+.container-main{width: 100%;height: auto;}
+.container-nav{width:1120px;height: 225px;position: relative;margin: 0 auto;text-align: center;overflow: hidden;margin-bottom: 40px;}
+.container-nav ul li{list-style: none;float: left;width: 153px;height: 145px;margin-right: 65px;padding-top: 60px;position: relative;}
+.container-nav ul a:hover{color: #AF3338;font-weight: 900;}
+.container-nav ul li p{margin-top: 15px;}
+.content{widows: 100%;height: auto; font-family: "microsoft yahei";font-weight: lighter;}
+.cm1-content{width: 1120px;height: 839px;position: relative;margin: 0 auto;text-align: center;}
+.cm1-content h2{font-size: 56px;color: #1E8CD1;margin-top: 35px;}
+.cm1-content p{display: inline-block;font-size: 20px;color: #484848;font-weight: normal;}
+.footer{width: 100%;height: 108px;background: #3A3939;}
+.footer-main{width:1120px;height:76px;position: relative;margin: 0 auto;text-align: right;padding-top: 32px;}
+.footer-main p{color: #e7e7e7;font-family: "微软雅黑";font-size: 12px;margin-right: 5px;margin-bottom: 5px;}
+.content-font{width: 992px;height: 110px;position: relative;margin: 0 auto;text-align: center;margin-top: 67px;margin-bottom: 59px;padding-left: 54px;padding-right: 54px;}
+.content-font p{text-align: left;font-size: 14px;color: #575757;}
+.pn-conent{width: 390px;height: 182px;float: left;margin-bottom: 15px; text-align: left;}
+.pn-conent1{width: 264px;height: 182px;float: left;margin-bottom: 15px;text-align: left;}
+.people-name h2{margin-left: 10px;font-size: 24px;color: #575757;margin-top: 0px;}
+.people-name p{color: #575757;font-size: 12px;margin-left: 20px;width: 250px;}
+.people-name{width: 1120px;height: 490px;position: relative;margin: 0 auto;margin-top: 70px;font-family: "microsoft yahei";font-weight: lighter;}
+.people-name img{float: left;margin-bottom: 15px;}
+.screen-img2{width: 1120px;height: 552px;position: relative;margin: 0 auto;}
+.screen-img3{width: 1120px;height: 524px;position: relative;margin: 0 auto;margin-bottom: 56px;}
+.content-head{width: 1120px;height: 320px;position: relative;margin: 0 auto;text-align: center;}
+.content-head img{margin-top: 80px;margin-bottom: 57px}
+.ch-font{width: 993px;height: 110px;position: relative;margin: 0 auto;text-align: left;color: #575757;font-size: 16px;}
+.content-img{width: 1120px;height: 661px;padding-top: 65px;position: relative;margin: 0 auto;text-align: center;}
+.content-img h2{font-size: 30px;color: #434343;margin-bottom: 40px;}
+.content-img p{margin-top: 38px;font-size: 16px;color: #575757;}
+.main-font{width: 1120px;height: 444px;position: relative;margin: 0 auto;padding-top: 96px;text-align: center;}
+.main-font h1{color: #2F2F2F;font-size: 48px;margin-bottom: 24px;}
+.main-font h2{color: #2F2F2F;font-size: 48px;margin-bottom: 65px;}
+.main-font p{color: #575757;font-size: 14px;margin-bottom: 80px;}
+.logo-more{width:1120px;height: 660px;position: relative;margin: 0 auto;margin-bottom: 140px;}
+.logo-more ul li{width: 280px;height: 126px;float: left;text-align: center;line-height: 186px;vertical-align:middle;padding-top: 47px;padding-bottom: 47px;}
+.logo-more ul li p{font-family: "lucida grande";font-size: 36px;color: #F6F6F6;transform: translateY(-30px);}
+
+.content-container{width: 100%;height: auto;font-family: "microsoft yahei";font-weight: lighter;}
+.content-partner{width: 1120px;height: 1769px;position: relative;margin:0 auto;text-align: center;padding-top: 30px;}
+.content-partner h2{font-size: 20px;color:#E13838 ;margin-top: 34px;}
+.font-partner{width: 1120px;height: 164px;margin-top: 50px;}
+.content-partner ul li div{text-align: center;width: 18px;height: 17px;border: 1px solid #E13838;border-radius:9px ;color:#E13838 ;font-size: 12px;display: inline-block;padding-top: 1px;margin-right: 10px;margin-left: 10px;}
+.content-partner ul li{width: 555px;height: 14px;float:left;text-align: right;padding-right: 5px;font-size: 16px;color: #424242;margin-bottom: 35px;}
+.content-partner .font-partner .font-partner-right{text-align:left ;padding-left: 5px;padding-right: 0;}
+.message-right span{margin-right: 30px;float: left;width: 100px;color: #3D3D3D;font-size: 14px;}
+.message-right input{float: left;width: 240px;height: 35px;margin-bottom: 24px;padding-left: 10px;border: 1px solid #CACACA;opacity: 0.23;}
+.message-right input:hover{opacity: 0.6;}
+.button{margin-top: 30px;float: right !important;width: 180px !important;height: 40px !important;color:#FFFFFF;background: darkorchid;font-size: 14px;position: relative;right: 70px;cursor:pointer;}
+.message-right #message{height:120px ;float: left;resize: none;font-family: "微软雅黑";padding-top: 10px;padding-left: 10px;border: 1px solid #CACACA;opacity: 0.23;}
+.message-right{width: 440px;height: 474px;position: relative;}
+@media only screen and (max-width: 1120px) {
+	#navbg{width: 1120px !important;}
+	#message-head-img{width: 1120px  !important;}
+}
+.message-weixin{width: 440px;height: 444px;position: relative;float:left;margin-left: 100px;text-align: left;padding-top: 30px;}
+.messageonline-main{width: 1120px;height: 642px;position: relative;margin: 0 auto;text-align: center;font-family: "microsoft yahei";font-weight: lighter;}
+.message-weixin p {text-align:left;color: #2F2F2F;font-size: 14px;margin-bottom: 28px;}
+.messageonline-main h2{margin-top: 48px;margin-bottom: 80px;color: #424242;font-size: 16px;}

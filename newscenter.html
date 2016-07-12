@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/appxiazai.css" />
+		<link rel="stylesheet" href="css/newscenter.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/slider.js" ></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="nav-bg"id="navbg" style="box-shadow: 1px 1px 3px #2f1d1d;">
+				<div class="nav"id="nav">
+					<ul>
+						<a href="index.html"><li style="margin-left: 60px;">谁是邢少爷</li></a>
+						<a href="hangmumeishi.html"><li>航母美食</li></a>
+						<a href="newscenter.html"><li style="color: #4CC1FC;">新闻资讯</li></a>
+						<a href="index.html"><li style="margin-top: 8px;"id="nav-logo"><img src="img/logo copy.jpg" alt="邢少爷long"/></li></a>
+						<a href="partner recruitmen.html"><li>合伙人招募</li></a>
+						<a href="appxiazai.html"><li>App下载</li></a>
+						<a href="messageonline.html"><li>联系我们</li></a>
+					</ul>
+				</div>
+			</div>
+			<div id="banner_tabs" class="flexslider">
+			        <ul class="slides">
+			            <li>
+			                <a title="" target="_blank" href="#">             	
+			                    <img width="1920" height="560px" alt="追忆童年" style="background: url(img/IMG_0199.jpg) no-repeat center;" >
+								<div class="main-font1">
+									<div class="main-font2">
+										<p>时光不会倒流，但美好的回忆永远都在。今天，我们在邢少爷追忆童年时光，愿长大后的我们，还能像小时候那样简单的快乐！你还记的童年吗？三五个好友一起跳皮筋、玩叠纸青蛙，每每和朋友聊起童年趣事...</p>
+									</div>
+			                		<h2>2016年6月1号</h2>
+			                		<img src="img/huanxing.png" style="width: 571px;height: 60px;position: relative;margin-top: 28px;" alt="唤醒回忆，追忆童年"/></br>
+			                		<img src="img/Who says memories ar.png"  style="width: 565px;height: 39px;position: relative;"alt="who says memories are not good？"/>
+			                		<h3>六一快乐！</h3>
+			                	</div>
+			                </a>
+			            </li>
+			            <li>
+			                <a title="" href="#">
+			                    <img width="1920" height="560px" alt="" style="background: url(img/IMG_0199.jpg) no-repeat center;">
+			                    <div class="main-font1">
+									<div class="main-font2">
+										<p>时光不会倒流，但美好的回忆永远都在。今天，我们在邢少爷追忆童年时光，愿长大后的我们，还能像小时候那样简单的快乐！你还记的童年吗？三五个好友一起跳皮筋、玩叠纸青蛙，每每和朋友聊起童年趣事...</p>
+									</div>
+			                		<h2>2016年6月1号</h2>
+			                		<img src="img/huanxing.png" style="width: 571px;height: 60px;position: relative;margin-top: 28px;" /></br>
+			                		<img src="img/Who says memories ar.png"  style="width: 565px;height: 39px;position: relative;"/>
+			                		<h3>六一快乐！</h3>
+			                	</div>
+			                </a>
+			            </li>
+			            <li>
+			                <a title="" href="#">
+			                    <img width="1920" height="560px" alt="" style="background: url(img/IMG_0199.jpg) no-repeat center;" >
+			                    <div class="main-font1">
+									<div class="main-font2">
+										<p>时光不会倒流，但美好的回忆永远都在。今天，我们在邢少爷追忆童年时光，愿长大后的我们，还能像小时候那样简单的快乐！你还记的童年吗？三五个好友一起跳皮筋、玩叠纸青蛙，每每和朋友聊起童年趣事...</p>
+									</div>
+			                		<h2>2016年6月1号</h2>
+			                		<img src="img/huanxing.png" style="width: 571px;height: 60px;position: relative;margin-top: 28px;" /></br>
+			                		<img src="img/Who says memories ar.png"  style="width: 565px;height: 39px;position: relative;"/>
+			                		<h3>六一快乐！</h3>
+			                	</div>
+			                </a>
+			            </li>
+			        </ul>
+			        <ul class="flex-direction-nav">
+			            <li><a class="flex-prev" href="javascript:;">Previous</a></li>
+			            <li><a class="flex-next" href="javascript:;">Next</a></li>
+			        </ul>
+			        <ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+			            <li><a>1</a></li>
+			            <li><a>2</a></li>
+			            <li><a>3</a></li>
+			        </ol>
+    			</div>
+				<script type="text/javascript" src="js/slider.js" ></script>
+			    <script type="text/javascript">
+				    $(function() {
+				        var bannerSlider = new Slider($('#banner_tabs'), {
+				            time: 5000,
+				            delay: 400,
+				            event: 'hover',
+				            auto: true,
+				            mode: 'fade',
+				            controller: $('#bannerCtrl'),
+				            activeControllerCls: 'active'
+				        });
+				        $('#banner_tabs .flex-prev').click(function() {
+				            bannerSlider.prev()
+				        });
+				        $('#banner_tabs .flex-next').click(function() {
+				            bannerSlider.next()
+				        });
+				    })
+				</script>
+		</div>
+		<div class="small-nav">
+			<span><a href="index.html">首页</a>><a href="#">新闻资讯</a></span>
+		</div>
+		<div class="news-content-bg">
+			<div class="news-content">
+				<script type="text/javascript">
+					window.onload = function(){
+						var btn1 = document.getElementById("box401");
+						var btn2 = document.getElementById("box402");
+						var move = document.getElementById("new-all");
+						var oLeft = move.offsetLeft;
+						btn2.onclick=function(){
+									move.style.left=-1120+"px";																	
+						}
+						btn1.onclick=function(){
+									move.style.left=0+"px";																	
+						}
+					}
+				</script>	
+				
+				<div id="new-all">
+					<div class="news-content-left" id="news-left">
+						<ul>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+						</ul>
+					</div>
+					
+					<div class="news-content-right" id="news-right">
+						<ul>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							<li>
+								<div class="img-hover-bg"></div>
+								<img src="img/174A6489 Copy.png"style="position: absolute;z-index: 10;" />
+								<div class="news-img-font1">
+									<p>上海招商合作发布会正式拉开帷幕</p>
+									<h6>2016.7.7</h6>
+								</div>
+								<div class="news-img-font2">
+									<p>邢少爷开业迎来40位餐饮行业大咖，有你们的助阵，邢少爷又将是一个餐饮品牌奇迹</p>
+								</div>						
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			<div id="box401">1</div>
+			<div id="box402">2</div>	
+			</div>
+			
+		</div>
+		<div class="footer">
+			<div class="footer-main" >
+				<p>雅聪（上海）餐饮管理有限公司  </p>
+				<p>邢少爷  &nbsp;版权所有©2016-2022 &nbsp;ALL RIGHTS RESREVED</p>
+			</div>
+		</div>
+		
+	</body>
+</html>

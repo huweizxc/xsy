@@ -1,0 +1,92 @@
+.nav ul li{list-style: none;float: left;margin-top: 55px;margin-left: 50px;font-family: "microsoft yahei";font-weight: lighter;font-size: 16px;color: #6C7A81;}
+.nav{width: 1120px;height: 70px;margin: 0 auto;position: relative;}
+.header{width: 100%;height: auto;position: relative;overflow: hidden;}
+.nav a{text-decoration: none;}
+.nav-bg{
+	width: 100%;
+	height: 90px;
+	box-shadow: 1px 1px 3px #af8585;
+	position: relative;
+	z-index: 3;
+}
+#nav-logo:hover{transform: translateY(-3px);transition: all 0.4s ease-in;}
+#nav-logo{transform: translateY(0);transition: all 0.4s ease-in;}
+.nav ul li:hover{color: #4CC1FC;}
+.header-content{width: 100%;height: 830px;background: url(../img/Group.png);position: relative;z-index: -50;}
+.header-content2{width: 100%;height: 640px;background:url(../img/Rectangle-80.jpg);position: relative;z-index: -50;}
+.hc-main{width: 1120px;height: 730px;position: relative;margin: 0 auto;}
+#huangren{right: 0;top: 267px;opacity:0;animation: anim4 0.5s .5s;animation-fill-mode : forwards;position: absolute;}
+@keyframes anim4{
+	0%{transform: translateX(200px) translateY(-150px);opacity: 0;}
+	100%{transform: translateX(0) translateY(0);opacity: 1;}
+}
+#zhadan{width: 848px;;height:521px;background: url(../img/zhadan.png);opacity: 0;top: 52px;animation: anim5 3s;animation-fill-mode : forwards;z-index:-10;position: relative;}
+@keyframes  anim5{
+	0%{opacity: 0;}
+	30%{opacity: 0.7;}
+	100%{opacity: 1;}
+}
+#ren,#shaoye{opacity:0;animation: anim6 0.5s 0.8s;animation-fill-mode : forwards; z-index:3px;position: absolute;}
+@keyframes anim6{
+	0%{transform: translateX(-200px);opacity: 0;}
+	100%{transform: translateX(0) translateY(0);opacity: 1;}
+}
+#phone{transform: translateY(600px);position: absolute;left: 122px;top: 93px;z-index: -5;animation: anim7 3s 1s;animation-fill-mode : forwards;}
+#dimian{;position: absolute;width: 100%;top: 516px;z-index: -1;}
+@keyframes anim7{
+	0%{transform: translateY(600px);}
+	40%{transform: translateX(0) translateY(0);}
+	60%{transform: translateX(0) translateY(6px);}
+	100%{transform: translateX(0) translateY(0);}
+}
+.footer{width: 100%;height: 80px;background: #3A3939;}
+.footer-main{width:1120px;height:50px;position: relative;margin: 0 auto;text-align: right;padding-top: 32px;}
+.footer-main p{color: #e7e7e7;font-family: "微软雅黑";font-size: 12px;margin-right: 5px;}
+.fp-newsmain a div:hover{background: #D0141B;}
+#xiazai{width: 250px;height: 140px;position: absolute;z-index:100;text-align: center;left: 627px;top:290px;}
+
+#xiazai ul li{opacity: 0;height: 45px;width:250px;font-size: 24px;color: #F8F9F9;font-family: "宋体";font-weight: lighter;padding-top: 15px;float: none;position: none;animation: anim8 1s 2s;animation-fill-mode : forwards;}
+@keyframes  anim8{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+.ios{background: #01AEFB;margin-bottom: 16px;cursor: pointer;}
+.android{background: #00CE9D;cursor: pointer;}
+@media only screen and (max-width:1120px ) {
+	.header{width: 1120px;}	
+	.header-content{width: 1120px;height: 700px;}
+	.footer{width: 1120px !important;}
+}
+#ios1:hover #ios{opacity: 1;}
+.content-main{width: 100%;height: auto;}
+.container-main{width: 100%;height: auto;}
+.container-nav{width:1120px;height: 225px;position: relative;margin: 0 auto;text-align: center;overflow: hidden;margin-bottom: 40px;}
+.container-nav ul li{list-style: none;float: left;width: 153px;height: 145px;margin-right: 65px;padding-top: 60px;position: relative;}
+.container-nav ul a:hover{color: #AF3338;font-weight: 900;}
+.container-nav ul li p{margin-top: 15px;}
+.pic{width: 1120px;height: 302px;margin: 0 auto;position: relative;top: 158px;box-shadow:none;}
+.pic ul{margin:0px;padding:0px;position: relative;}
+.pic li{display: none;width: 1120px;height: 302px;margin:0 auto;position:absolute;display: inline-block;}
+.main-font{width: 1120px;height: 300px;position: relative;margin: 0 auto;padding-top: 20px;text-align: center;}
+.main-font h1{color: #2F2F2F;font-size: 48px ;margin-bottom: 10px; font-family: "microsoft yahei";font-weight: lighter;}
+.main-font h2{color: #2F2F2F;font-size: 48px ;margin-bottom: 30px;margin-top: 10px; font-family: "microsoft yahei";font-weight: lighter;}
+.main-font p{text-align: left;color:#434343;font-size: 24px ;margin-bottom: 30px;margin-top: 10px; font-family: "microsoft yahei";font-weight: lighter;padding: 0;}
+.pic-font{width: 1120px;height:auto;position: relative;margin: 0 auto;margin-bottom: 80px;}
+.pic-font ul{width: 1120px;height: 200px;padding: 0;position: relative;margin-bottom: 20px;}
+.pic-font ul li{width:264px ;height: 200px;float: left;margin-right: 21px;overflow: hidden;position: relative;}
+.pic-font ul li img{position: absolute;z-index: 1;}
+.pic-font ul li:hover{transform: translate3d(0,-2px,0);box-shadow: 0 15px 30px -5px rgba(0,0,0,0.4);transition: all .2s linear ;}
+.pic-font ul li:hover .product-intoduce{transform: translateY(0);transition: all 0.5s;}
+.pic-font ul li .product-intoduce{width: 264px;height: 40px;position: absolute;z-index: 50;transform: translateY(-40px);}
+.pic-font ul li .product-intoduce p{color: #FFFFFF;font-size: 14px;margin-left: 22px;margin-top: 11px;font-family: "微软雅黑";}
+.main-news{height: auto;width: 100%;background: #e3e3e3;font-family: "microsoft yahei";color: #292929;font-weight: lighter;}
+.content-main-news{width: 1120px;height: auto;position: relative;margin: 0 auto;text-align: center;}
+.content-main-news h2{font-size: 36px;margin-top: 40px;}
+.main-news .content-main-news .main-news-nav{font-size: 14px;text-indent: 0;height: 20px;padding-top: 20px;text-align: left;}
+.main-news .content-main-news .main-news-nav a{text-decoration: none;color: #292929;}
+.content-main-news h5{font-size: 12px;margin-top: 18px;}
+.liner{width: 1120px;height: 22px;border-bottom:1px solid #979797;margin-bottom: 60px;}
+.content-main-news p{font-size: 12px;line-height: 20px;text-align: left;width: 800px;text-indent: 2em;position: relative;margin: 0 auto;}
+.main-news-bottomnav{width: 400px;height: 50px;position: relative;text-align: left;margin-left: 720px;font-size: 12px;color: #4E4E4E;}
+.main-news-bottomnav a{text-decoration: none;color: #4E4E4E;}
+#ios{width: 200px;height: 200px;background-image: url(../img/ios.png);background-size: 100% 100%;position: absolute;z-index: 500;right: 20px;top: 250px;display: none;}
